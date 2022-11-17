@@ -1,0 +1,35 @@
+.seccion4{
+    /*background: url(imagenes/FONDO-05.jpg);
+    background-size: cover;*/
+    background-color: black;
+}
+
+.servicios-seccion4{
+    height: 300px;
+}
+
+.contenedor-seccion4{
+    display:flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    
+   padding-top:10px;
+   padding-bottom: 10px;
+    height: 500px;
+}
+
+
+.padding-lista{
+    padding:15px;
+}
+
+/* DISEÑO RESPONSIVE PARA SECCION 4 ************************************************/
+
+@media screen and (max-width:500px){
+
+
+
+
+
+    
+}

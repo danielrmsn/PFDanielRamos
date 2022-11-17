@@ -1,0 +1,132 @@
+
+.seccion2{
+    background: url(../imagenes/FONDO-03.png);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+
+.div1-seccion2{
+    display: flex;
+    align-items: center;
+    height: 20%;
+    padding-left: 3%;
+}
+
+.div2-seccion2{
+    height: 60%;
+    display:flex;
+    align-items: center;
+    align-items: stretch;
+    justify-content: center;
+    padding: 2%;
+
+}
+
+.subdiv-seccion2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2%;
+}
+
+.img-seccion3{
+    height: 25%;
+    width: 100%;
+}
+
+.div3-seccion2{
+    display: flex;
+    height: 20%;
+    justify-content: center;
+    align-items: flex-start;
+    text-decoration: none;
+
+    
+}
+
+.boton1-seccion2 {
+    display: flex;
+    border-radius: 200px;
+    height: 65px;
+    width: 200px;
+    
+    border-style: solid;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    
+}
+
+
+.div3-seccion2 a{
+    text-decoration: none;
+    color: white;
+}
+
+
+.imagen5{
+    width: 310.3px;
+    height: 360px;
+    
+}
+
+.texto-en-blanco{
+    color:white;
+}
+
+/* Diseño responsive seccion2 ********************************************************/
+
+@media screen and (max-width:500px) {
+
+    .seccion2 {
+        display: flex;
+        align-content: center;
+        flex-direction: column;
+        width: 500px;
+    }
+
+    .div1-seccion2 {
+        display: flex;
+        height: 10%;
+
+    }
+
+
+
+    .div2-seccion2 {
+        display: flex;
+        width: 500px;
+        height: 50%;
+        align-items: center;
+
+    }
+
+    .div3-seccion2 {
+        display: flex;
+        
+
+        
+
+    }
+
+    .boton1-seccion2:hover {
+        display: flex;
+        border-radius: 200px;
+        height: 65px;
+        width: 200px;
+
+        border-style: solid;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        color: white;
+        transform: scale(1.5);
+        transition: all .5s;
+    }
+
+    .texto-en-blanco {
+        color: white;
+    }
+
+}

@@ -1,0 +1,57 @@
+
+.footer{
+    background-color: black;
+    /*background: url(imagenes/FONDO-07.jpg);
+    background-size: cover;*/
+    margin:0;
+    padding: 0;
+    height:1080px;
+    display: flex;
+    flex-direction: column;
+}
+
+.divh3{
+    height:75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+}
+
+.divh3 h3{
+    font-size: 90px;
+}
+
+.navfooter{
+    height: 25%;
+}
+
+.footer-imagenes{
+    display: flex;
+   justify-content: center;
+    align-items: stretch;
+    
+    
+
+}
+ 
+.div1-footer{
+    width:50%;
+  padding: 20px;
+    
+}
+
+.div2-footer{
+    display: flex;
+    
+    width:50%;
+    justify-content: center;
+    justify-content:space-evenly;
+    align-items: stretch;
+    
+}
+
+.tamaño-imagenes-footer{
+    height: 75%;
+    width: 75%;
+}

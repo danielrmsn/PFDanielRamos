@@ -1,0 +1,50 @@
+
+*{
+    margin: 0%;
+    padding:0%;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap');
+
+html{
+    font-family: sans-serif ;
+    color:white;
+
+
+}
+
+@import "header";
+
+
+/* Estilos para el main*/
+main{
+    /*background: url(imagenes/FONDO-02.jpg);
+    background-size: cover;*/
+    background-color: black;
+   margin:0;
+   padding:0;
+   display:grid;
+  /* width:1200px;---------------*/
+   height: 5400px;
+   
+   grid-template-rows: repeat(5,1080px);
+}
+
+/* Estilos de la seccion 1 */
+@import "seccion1";
+
+/* Estilos de la seccion 2 */
+@import "seccion2";
+
+/* Estilos de la seccion 3 */
+
+@import "seccion3";
+
+/* Estilos de la seccion 4 */
+@import "seccion4";
+
+/* Estilos de la seccion 5 */
+@import "seccion5";
+
+/* Estilos del footer */
+@import "footer";

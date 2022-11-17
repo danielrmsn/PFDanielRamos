@@ -1,0 +1,88 @@
+.seccion3{
+    /*background: url(imagenes/FONDO-04.jpg);
+    background-size: cover;*/
+    background-color: black;
+}
+
+#Shop{
+   
+    height: 200px;
+    padding-left: 2%;
+    padding-top: 2%;
+}
+
+.div2-seccion3{
+    display: flex;
+    grid-template-columns: 3fr 3fr 3fr;
+    grid-template-rows: 1fr;
+    height:300px;
+    justify-content: center;
+    justify-content: space-evenly; 
+}
+
+.card-title,
+.card-text{
+    color:black;
+}
+
+
+.div3-seccion3{
+    justify-content: center;
+}
+
+
+
+/*Diseño responsive para seccion 3 ********************************************************/
+
+@media screen and (max-width:500px){
+
+    .seccion3{
+        max-width: 500px;
+        display: flex;
+        flex-direction: column;
+       
+        justify-content: center;
+       
+
+    }
+
+    #Shop{
+        display: none;
+    }
+  
+    
+    .div2-seccion3{
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .div3-seccion3{
+        display: flex;
+        justify-content: center;
+        height: 300px;
+        
+    }
+
+    .divimg-seccion3{
+
+    }
+    
+    .card-img-top{
+        height: 20%;
+        
+    }
+    .card{
+        height: 10%;
+    }
+    .card-body{
+        height: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+
+
+}
