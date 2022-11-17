@@ -1,6 +1,6 @@
 .seccion4{
-    /*background: url(imagenes/FONDO-05.jpg);
-    background-size: cover;*/
+    background-image: url(../imagenes/FONDO-05.png);
+        background-size: cover;
     background-color: black;
 }
 
@@ -27,6 +27,10 @@
 
 @media screen and (max-width:500px){
 
+    .seccion4{
+    background-image: url(../archivos_movil/FONDO-5.png);
+    background-size: cover;
+    }
 
 
 

@@ -1,7 +1,6 @@
 .seccion3{
-    /*background: url(imagenes/FONDO-04.jpg);
-    background-size: cover;*/
-    background-color: black;
+    background-image: url(../imagenes/FONDO-04.png);
+    background-size: cover;
 }
 
 #Shop{
@@ -37,6 +36,8 @@
 @media screen and (max-width:500px){
 
     .seccion3{
+        background-image: url(../archivos_movil/FONDO-4.png);
+        background-size: cover;
         max-width: 500px;
         display: flex;
         flex-direction: column;

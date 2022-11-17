@@ -41,3 +41,15 @@ a{
     position:absolute;
     left: 400px;
 }
+
+
+
+@media screen and (max-width:500px){
+
+    .seccion5{
+    background-image: url(../archivos_movil/FONDO-6.png);
+    background-size: cover;
+    }
+
+    
+}

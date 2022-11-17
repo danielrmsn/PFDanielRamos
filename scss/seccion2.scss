@@ -80,6 +80,8 @@
 @media screen and (max-width:500px) {
 
     .seccion2 {
+        background-image: url(../archivos_movil/FONDO-3.png);
+        background-size: cover;
         display: flex;
         align-content: center;
         flex-direction: column;
