@@ -1,81 +1,53 @@
 header {
     background: url(../imagenes/FONDO-01.png);
     background-size:cover;
-    
-}
-
-
-header {
-    
-    display: flex;
-    /*----width:1200px;------*/
     height: 1080px;
-    justify-content: center;
-    margin: 0;
-    padding: 0;
+    
+}
+
+.div-principal2{
+    height:15%;
 
 }
 
-.div-principal2 {
-    height: 10%;
+.div-principal2 nav{
+    height: 100%;
+    border-bottom: 1px white solid;
 
 }
 
-
-
-
-
-header nav {
-
-    border-bottom: 2px solid white;
-}
-
-header nav div {
-
-    padding: 20px;
-}
-
-
-.div-header {
+.div-header{
+    height: 100%;
     display: flex;
-
+    flex-direction: row;
+    padding: 2%;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-right: 50%;
+    
+    
 }
 
-.lista-header {
-
-    justify-content: space-around;
-
-}
-
-.indice {
+.indice{
     text-decoration: none;
-    color: white;
+    color:white;
+
 }
 
-header section {
-    margin: 10px;
-    padding: 10px;
-}
 
-.div-headerImagen {
-    height: 75%;
+.div-headerImagen{
+    height:70%;
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
-header section img {
-    width: 50%;
-    height: 50%;
-    position: relative;
-    left: 350px;
+.imagen-header{
+    height: 30%;
+    width: 30%;
 }
 
-.imagen-header {
-    width: 50%;
-    height: 50%;
-}
+
 
 /*Diseño responsive para el header ************************************************************************/
 
@@ -85,14 +57,13 @@ header section img {
         background: url(../archivos_movil/FONDO-1.png);
         background-size:cover;
         max-width: 500px;
-
-
-
     }
 
-    .div-principal1 {}
-
-    body header .div-principal2 {}
+   
+    .div-header{
+        display: none;
+    }
+   
 
     .lista-header {
         width: 50px;
@@ -102,7 +73,8 @@ header section img {
     .div-headerImagen {
         display: flex;
         align-items: center;
-
+        height: 300px;
+        width: 300px;
 
     }
 
@@ -128,7 +100,7 @@ header section img {
     .imagen-header {
         width: 50%;
         height: 50%;
-        flex-wrap: wrap;
+        
     }
 
 }
