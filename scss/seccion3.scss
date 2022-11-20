@@ -11,25 +11,40 @@
 }
 
 .div2-seccion3{
+    height: 60%;
+    display:flex;
+    align-items: center;
+    align-items: stretch;
+    justify-content: center;
+    padding: 2%;
+
+}
+
+.subdiv-seccion3{
     display: flex;
-    grid-template-columns: 3fr 3fr 3fr;
-    grid-template-rows: 1fr;
-    height:300px;
     justify-content: center;
-    justify-content: space-evenly; 
-}
-
-.card-title,
-.card-text{
-    color:black;
+    align-items: center;
+    padding: 2%;
+    
 }
 
 
-.div3-seccion3{
-    justify-content: center;
+.img-seccion3{
+    
+    height:100%;
+    width: 100%;
 }
 
+.subdiv-seccion3{
+    display: flex;
+    flex-direction: column;
+    object-fit: cover;
+}
 
+.subdiv2-seccion3{
+    padding: 10%;
+ 
+}
 
 /*Diseño responsive para seccion 3 ********************************************************/
 
@@ -40,50 +55,45 @@
         background-size: cover;
         max-width: 500px;
         display: flex;
-        flex-direction: column;
-       
         justify-content: center;
-       
+       align-items: center;
 
     }
-
-    #Shop{
+     #Shop{
         display: none;
-    }
+     }
+    
   
     
     .div2-seccion3{
-        
+        padding: 0;
+        margin: 0;
+        height: 100%;
         display: flex;
         flex-direction: column;
-        justify-content: center;
-    }
-
-    .div3-seccion3{
-        display: flex;
-        justify-content: center;
-        height: 300px;
         
     }
+        
 
-    .divimg-seccion3{
-
+    .subdiv-seccion3{
+        padding: 0;
+        margin: 0;
+        height: 33%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 10px;
     }
+
+    .a1{
+        height: 33%;
+    }
+
+    .img-seccion3{
     
-    .card-img-top{
-        height: 20%;
-        
+        height:100%;
+        width: 100%;
     }
-    .card{
-        height: 10%;
-    }
-    .card-body{
-        height: 50%;
-        display: flex;
-        flex-direction: column;
-        align-items: stretch;
-    }
-
 
 
 }

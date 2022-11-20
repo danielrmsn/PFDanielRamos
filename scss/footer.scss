@@ -11,7 +11,7 @@
 }
 
 .divh3{
-    height:75%;
+    height:85%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -25,7 +25,9 @@
 }
 
 .navfooter{
-    height: 25%;
+    height: 15%;
+    background-image: url(../imagenes/FONDO-02.png) ;
+    background-size: cover;
 }
 
 .footer-imagenes{
@@ -33,10 +35,17 @@
    justify-content: center;
     align-items: stretch;
     
-    
-
 }
  
+.footer-imagenes1{
+    display: flex;
+    object-fit: cover;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
 .div1-footer{
     width:50%;
   padding: 20px;
