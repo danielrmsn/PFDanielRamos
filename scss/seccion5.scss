@@ -1,55 +1,91 @@
-.seccion5{
-    background: url(../imagenes/FONDO-06.jpg);
+.seccion5 {
+    background: url(../imagenes/FONDO-06.png);
     background-size: cover;
-    
+    display: flex;
+    flex-direction: column;
+
+
+
+}
+
+.div1-seccion5 {
+    height: 10%;
+
+}
+
+.div2-seccion5 {
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagen-seccion5 {
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+.divimagen-seccion5 {
+    height: 100%;
+
+}
+
+.div3-seccion5,
+.div4-seccion5,
+.div5-seccion5,
+.div6-seccion5 {
+    height: 10%;
+    border-bottom: 1px white solid;
+    max-width: 50%;
+    margin: 10px;
+
+    .controls {
+        width: 100%;
+        background-color: transparent;
+        padding: 2px;
+        color: white;
+
+    }
 }
 
 
-a{
-    text-decoration: none;
-    color: white;
-}
-
-.tamaño-imagenes{
-    height:10%;
-    width:10%;
-}
-
-.proyectos-imagenes1{
-    position:absolute;
-    right: 35%;
-}
-.proyectos-imagenes2{
-    position:absolute;
-    right: 50%;
-}
-.proyectos-imagenes3{
-    position:absolute;
-    right: 65%;
-}
-
-
-.lista-servicios{
-    color:purple;
-}
-
-.contacto{
-    color:purple
-}
-
-.imagenes-contacto{
-    position:absolute;
-    left: 400px;
-}
 
 
 
-@media screen and (max-width:500px){
+@media screen and (max-width:500px) {
 
-    .seccion5{
-    background-image: url(../archivos_movil/FONDO-6.png);
-    background-size: cover;
+    .seccion5 {
+        background-image: url(../archivos_movil/FONDO-6.png);
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
-    
+    .div3-seccion5,
+    .div4-seccion5,
+    .div5-seccion5,
+    .div6-seccion5 {
+        height: 10%;
+        border-bottom: 1px white solid;
+        max-width: 100%;
+        margin: 10px;
+
+    }
+
+    .controls {
+        width: 100%;
+        background-color: transparent;
+        padding: 2px;
+        color: white;
+
+    }
+
+    .imagen-seccion5 {
+        height: 75%;
+        width: 75%;
+        margin:0;
+        
+    }
 }
