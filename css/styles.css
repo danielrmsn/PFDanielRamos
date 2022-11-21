@@ -175,8 +175,8 @@ main {
   }
   .imagen-seccion1 {
     margin-left: 0;
-    height: 50%;
-    width: 50%;
+    height: 212.91px;
+    width: 183.56px;
   }
   .div2-seccion1 {
     display: flex;
@@ -535,6 +535,11 @@ main {
     height: 75%;
     width: 75%;
     margin: 0;
+  }
+  .divimagen-seccion5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }
 /* Estilos del footer */
