@@ -71,12 +71,51 @@
 @media screen and (max-width:500px){
 
     .footer{
-    background-image: url(../archivos_movil/FONDO-7.png);
-    background-size: cover;
+        max-width: 500px;
+    }
+  
+    .divh3{
+        background-image: url(../archivos_movil/FONDO-7.png);
+        background-size: cover;
+        height: 80%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        
+    }
+
+    .h3-footer{
+        display: block;
+        justify-content: center;
+        font-size:small;
+    }
+
+    .navfooter{
+        height: 20%;
     }
 
 
+    .div1-footer{
+        display: flex;
+        justify-content: center;
+        text-decoration: none;
+    }
+    .footer-imagenes{
+        flex-direction: column;
+        
+        align-items: center;
+    }
+    .h3footer{
+        font-size: 10px;
+    }
 
+    .a-footer{
+        text-decoration: none;
+        color: white;
+    }
 
-    
+    .divh3 h3{
+        font-size: 40px;
+    }
 }
