@@ -416,9 +416,23 @@ main {
     background-image: url(../archivos_movil/FONDO-5.png);
     background-size: cover;
     max-width: 500px;
+    text-decoration: none;
+  }
+  .seccion4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .servicios-seccion4 {
+    height: 10%;
   }
   .contenedor-seccion4 {
+    height: 90%;
+    display: flex;
     flex-direction: column;
+    justify-content: center;
+    justify-content: space-evenly;
   }
   .div1-seccion4,
   .div2-seccion4,
@@ -426,7 +440,25 @@ main {
     display: flex;
     flex-direction: row;
   }
-} /* Estilos de la seccion 5 */
+  .h-seccion4 {
+    font-size: 25px;
+  }
+  .padding-lista {
+    padding: 0;
+    width: 123.69px;
+  }
+  .lista-servicios {
+    padding: 0;
+    text-decoration: none;
+    margin-top: 20%;
+  }
+  .li-seccion4 {
+    font-size: 10px;
+    text-decoration: none;
+    color: white;
+  }
+}
+/* Estilos de la seccion 5 */
 .seccion5 {
   background: url(../imagenes/FONDO-06.jpg);
   background-size: cover;
