@@ -532,8 +532,8 @@ main {
     color: white;
   }
   .imagen-seccion5 {
-    height: 75%;
-    width: 75%;
+    height: 285.68px;
+    width: 267.48px;
     margin: 0;
   }
   .divimagen-seccion5 {
@@ -602,6 +602,21 @@ main {
 .tamaño-imagenes-footer {
   height: 75%;
   width: 75%;
+}
+
+.imagen1footer {
+  height: 50px;
+  width: 50px;
+}
+
+.imagen2footer {
+  height: 50px;
+  width: 26.1px;
+}
+
+.imagen3footer {
+  height: 50px;
+  width: 50px;
 }
 
 @media screen and (max-width: 500px) {
