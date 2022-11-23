@@ -115,6 +115,7 @@ main {
   display: flex;
   height: 70%;
   align-items: center;
+  position: relative;
 }
 
 .div1-seccion1 {
@@ -125,9 +126,16 @@ main {
 }
 
 .imagen-seccion1 {
-  margin-left: 30%;
   height: 50%;
   width: 50%;
+}
+
+.p1-seccion1 {
+  display: block;
+  width: 30%;
+  position: absolute;
+  right: 10%;
+  font-size: 30px;
 }
 
 .div2-seccion1 {
@@ -157,6 +165,10 @@ main {
   align-items: center;
   justify-content: right;
   padding-right: 10%;
+}
+
+.indice:hover {
+  color: white;
 }
 
 @media screen and (max-width: 500px) {
