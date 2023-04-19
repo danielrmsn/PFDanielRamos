@@ -36,44 +36,84 @@
         <div class="div-seccion1">
 
 
-            <div class="datos-contacto" id ="infoUsuario">
+            <div class="datos-contacto" >
                 <h2 class="tituloContacto"> DATOS DE FACTURACIÓN</h2>
-                <span>Informacion de contacto</span>
-                <label for="email">Introduce tu correo electronico</label>
-                <input type="email" id="email">
-                <h3>Direción de envio</h3>
+               
+
+                <form action="" id="infoUsuario">
+                    
+                   
+                    <span>Informacion de contacto</span>
+
+                    <div>
+                        <label for="nombre">Nombre</label>
+                        <input type="text" id="nombre" placeholder="Introduce tu nombre">
+                    </div>
                 
-                <label for="pais-region">Introduce tu correo electronico</label>
-                <input type="text" id="pais-region" placeholder="ejemplo@correo.com">
+                    <div>
+                        <label for="apellidos">Introduce tus apellidos</label>
+                        <input type="text" id="apellidos" placeholder="Apellidos">
+                    </div>
                 
-                <label for="nombre">Nombre</label>
-                <input type="text" id="nombre" placeholder="Introduce tu nombre">
+                    <div>
+                        <label for="empresa">Empresa</label>
+                        <input type="text" id="empresa" placeholder="Empresa (opcional)">
+                    </div>
+                    
+                    <h3>Direción de envio</h3>
+
+                    <div>
+                        <label for="calle">Introduce tu calle</label>
+                        <input type="text" id="calle" placeholder="Introduce tu dirección">
+                        <label for="numero">Numero</label>
+                        <input type="text" id="numero" placeholder="Introduce tu dirección">
+                    </div>
                 
-                <label for="apellidos">Introduce tus apellidos</label>
-                <input type="text" id="apellidos" placeholder="Apellidos">
+                    <div>
+                        <label for="colonia">Colonia</label>
+                        <input type="text" id="colonia" placeholder="introduce tu colonia">
+                    </div>
                 
-                <label for="empresa">Empresa</label>
-                <input type="text" id="empresa" placeholder="Empresa (opcional)">
+                    <div>
+                        <label for="codigoPostal">Codigo Postal</label>
+                        <input type="text" id="codigoPostal" placeholder="Introduce tu CP">
+                    </div>
                 
-                <label for="direccion">Dirección</label>
-                <input type="text" id="direccion" placeholder="Introduce tu dirección">
+                    <div>
+                        <label for="ciudad">Ciudad</label>
+                        <input type="text" id="ciudad" placeholder="Introduce tu ciudad">
+                    </div>
                 
-                <label for="colonia">Colonia</label>
-                <input type="text" id="colonia" placeholder="introduce tu colonia">
+                    <div>
+                        <label for="estado">Estado</label>
+                        <input type="text" id="estado" placeholder="Introduce tu estado">
+                    </div>
                 
-                <label for="codigoPostal">Codigo Postal</label>
-                <input type="text" id="codigoPostal" placeholder="Introduce tu CP">
-                
-                <label for="ciudad">Ciudad</label>
-                <input type="text" id="ciudad" placeholder="Introduce tu ciudad">
-                
-                <label for="estado">Estado</label>
-                <input type="text" id="estado" placeholder="Introduce tu estado">
-                
-                <label for="telefono">Telefono</label>
-                <input type="text" id="telefono" placeholder="Introduce tu telefono">
+                    <div>
+                        <label for="pais-region">Pais</label>
+                        <input type="text" id="pais-region" placeholder="Introduce un pais">
+                    </div>
 
 
+                    <div>
+                        <label for="telefono">Telefono</label>
+                        <input type="text" id="telefono" placeholder="Introduce tu telefono">
+                    </div>
+
+                    <div>
+                        <label for="email">Introduce tu correo electronico</label>
+                    <input type="email" id="email">
+                    </div>
+
+                    <div>
+                        <label for="rfc">Introduce tu RFC</label>
+                    <input type="email" id="rfc">
+                    </div>
+
+                    <div>
+                        <input type="submit" class="boton" value="Ingresar">
+                    </div>
+                </form>
 
 
 
